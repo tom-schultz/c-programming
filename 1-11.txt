@@ -1,0 +1,3 @@
+I would test the word count program by thinking about edge cases. Empty file, massive file. Randomly generating text. One massive word. All of the possible variations I could think of.
+
+It definitely looks like it would overflow with enough characters, short words, or newlines. I also don't know how safe getchar is - I would expect that it does fine with standard character sets, but what happens if stdin gets passed a bunch of garbage?

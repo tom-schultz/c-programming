@@ -12,7 +12,7 @@
 int main() {
 	int c;
 
-	while ((c = getc()) != EOF) {
+	while ((c = getchar()) != EOF) {
 		if (c == '\t') {
 			printf("\\t");
 		}
