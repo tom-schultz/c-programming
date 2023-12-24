@@ -48,6 +48,8 @@ int main() {
 	}
 
 	if (chars[NUM_BUCKETS - 1] > 0) {
+		// This should obviously be in a function for DRY, but I
+		// "haven't learned that yet".
 		printf("Others: ");
 
 		for (int j = 0; j < chars[NUM_BUCKETS - 1]; j++) {
